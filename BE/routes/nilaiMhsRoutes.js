@@ -8,9 +8,9 @@ import {
 
 const router = express.Router();
 
-router.get("/nilai", getnilaiMhs);
-router.post("/nilai", createDataMhs);
-router.patch("/nilai/:NPM", updatenilaiMhs);
-router.delete("/nilai/:NPM", deletenilaiMhs);
+router.get("/", getnilaiMhs);
+router.post("/", createDataMhs);
+router.patch("/:NPM", updatenilaiMhs);
+router.delete("/:NPM", deletenilaiMhs);
 
 export default router;
