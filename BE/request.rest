@@ -1,0 +1,25 @@
+GET http://localhost:5000/nilai
+
+
+###
+POST http://localhost:5000/nilai
+Content-Type: application/json
+
+{
+    "NPM" : 51422021,
+    "Nama" : "Rusdi",
+    "IPK" : 4.0
+}
+
+###
+PATCH  http://localhost:5000/nilai/51422021
+Content-Type: application/json
+
+{
+    "NPM" : 51422021,
+    "Nama" : "Muhammad Eka",
+    "IPK" : 4.0
+}
+
+###
+DELETE  http://localhost:5000/nilai/51422021
