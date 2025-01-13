@@ -12,11 +12,11 @@ Content-Type: application/json
 }
 
 ###
-PATCH  http://localhost:5000/nilai/51422021
+PATCH  http://localhost:5000/nilai/3
 Content-Type: application/json
 
 {
-    "NPM" : 51422021,
+    "NPM" : "t2t122",
     "Nama" : "Muhammad Eka",
     "IPK" : 4.0
 }

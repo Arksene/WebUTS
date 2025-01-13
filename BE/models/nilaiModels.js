@@ -6,9 +6,9 @@ const { DataTypes } = Sequelize;
 const nilaiMhs = db.define(
   "nilai",
   {
-    NPM: DataTypes.INTEGER,
+    NPM: DataTypes.STRING,
     Nama: DataTypes.STRING,
-    IPK: DataTypes.FLOAT,
+    IPK: DataTypes.STRING,
   },
   {
     freezeTableName: true,
